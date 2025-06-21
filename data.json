@@ -1,0 +1,647 @@
+
+
+
+{
+  "subjects": [
+    {
+      "subject": "Mathematics",
+      "chapters": [
+        {
+          "chapterName": "Algebra",
+          "questions": [
+            {
+              "question": "Sample question 1?",
+              "options": {
+                "a": "Option A1",
+                "b": "Option B1",
+                "c": "Option C1",
+                "d": "Option D1"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 2?",
+              "options": {
+                "a": "Option A2",
+                "b": "Option B2",
+                "c": "Option C2",
+                "d": "Option D2"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 3?",
+              "options": {
+                "a": "Option A3",
+                "b": "Option B3",
+                "c": "Option C3",
+                "d": "Option D3"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 4?",
+              "options": {
+                "a": "Option A4",
+                "b": "Option B4",
+                "c": "Option C4",
+                "d": "Option D4"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 5?",
+              "options": {
+                "a": "Option A5",
+                "b": "Option B5",
+                "c": "Option C5",
+                "d": "Option D5"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 6?",
+              "options": {
+                "a": "Option A6",
+                "b": "Option B6",
+                "c": "Option C6",
+                "d": "Option D6"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 7?",
+              "options": {
+                "a": "Option A7",
+                "b": "Option B7",
+                "c": "Option C7",
+                "d": "Option D7"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 8?",
+              "options": {
+                "a": "Option A8",
+                "b": "Option B8",
+                "c": "Option C8",
+                "d": "Option D8"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Sample question 9?",
+              "options": {
+                "a": "Option A9",
+                "b": "Option B9",
+                "c": "Option C9",
+                "d": "Option D9"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 10?",
+              "options": {
+                "a": "Option A10",
+                "b": "Option B10",
+                "c": "Option C10",
+                "d": "Option D10"
+              },
+              "correctAnswer": "b"
+            }
+          ]
+        },
+        {
+          "chapterName": "Geometry",
+          "questions": [
+            {
+              "question": "Sample question 1?",
+              "options": {
+                "a": "Option A1",
+                "b": "Option B1",
+                "c": "Option C1",
+                "d": "Option D1"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Sample question 2?",
+              "options": {
+                "a": "Option A2",
+                "b": "Option B2",
+                "c": "Option C2",
+                "d": "Option D2"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 3?",
+              "options": {
+                "a": "Option A3",
+                "b": "Option B3",
+                "c": "Option C3",
+                "d": "Option D3"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Sample question 4?",
+              "options": {
+                "a": "Option A4",
+                "b": "Option B4",
+                "c": "Option C4",
+                "d": "Option D4"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 5?",
+              "options": {
+                "a": "Option A5",
+                "b": "Option B5",
+                "c": "Option C5",
+                "d": "Option D5"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 6?",
+              "options": {
+                "a": "Option A6",
+                "b": "Option B6",
+                "c": "Option C6",
+                "d": "Option D6"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 7?",
+              "options": {
+                "a": "Option A7",
+                "b": "Option B7",
+                "c": "Option C7",
+                "d": "Option D7"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 8?",
+              "options": {
+                "a": "Option A8",
+                "b": "Option B8",
+                "c": "Option C8",
+                "d": "Option D8"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 9?",
+              "options": {
+                "a": "Option A9",
+                "b": "Option B9",
+                "c": "Option C9",
+                "d": "Option D9"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 10?",
+              "options": {
+                "a": "Option A10",
+                "b": "Option B10",
+                "c": "Option C10",
+                "d": "Option D10"
+              },
+              "correctAnswer": "b"
+            }
+          ]
+        },
+        {
+          "chapterName": "Trigonometry",
+          "questions": [
+            {
+              "question": "Sample question 1?",
+              "options": {
+                "a": "Option A1",
+                "b": "Option B1",
+                "c": "Option C1",
+                "d": "Option D1"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 2?",
+              "options": {
+                "a": "Option A2",
+                "b": "Option B2",
+                "c": "Option C2",
+                "d": "Option D2"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 3?",
+              "options": {
+                "a": "Option A3",
+                "b": "Option B3",
+                "c": "Option C3",
+                "d": "Option D3"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 4?",
+              "options": {
+                "a": "Option A4",
+                "b": "Option B4",
+                "c": "Option C4",
+                "d": "Option D4"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 5?",
+              "options": {
+                "a": "Option A5",
+                "b": "Option B5",
+                "c": "Option C5",
+                "d": "Option D5"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 6?",
+              "options": {
+                "a": "Option A6",
+                "b": "Option B6",
+                "c": "Option C6",
+                "d": "Option D6"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 7?",
+              "options": {
+                "a": "Option A7",
+                "b": "Option B7",
+                "c": "Option C7",
+                "d": "Option D7"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 8?",
+              "options": {
+                "a": "Option A8",
+                "b": "Option B8",
+                "c": "Option C8",
+                "d": "Option D8"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 9?",
+              "options": {
+                "a": "Option A9",
+                "b": "Option B9",
+                "c": "Option C9",
+                "d": "Option D9"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 10?",
+              "options": {
+                "a": "Option A10",
+                "b": "Option B10",
+                "c": "Option C10",
+                "d": "Option D10"
+              },
+              "correctAnswer": "d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Science",
+      "chapters": [
+        {
+          "chapterName": "Physics",
+          "questions": [
+            {
+              "question": "Sample question 1?",
+              "options": {
+                "a": "Option A1",
+                "b": "Option B1",
+                "c": "Option C1",
+                "d": "Option D1"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 2?",
+              "options": {
+                "a": "Option A2",
+                "b": "Option B2",
+                "c": "Option C2",
+                "d": "Option D2"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 3?",
+              "options": {
+                "a": "Option A3",
+                "b": "Option B3",
+                "c": "Option C3",
+                "d": "Option D3"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 4?",
+              "options": {
+                "a": "Option A4",
+                "b": "Option B4",
+                "c": "Option C4",
+                "d": "Option D4"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 5?",
+              "options": {
+                "a": "Option A5",
+                "b": "Option B5",
+                "c": "Option C5",
+                "d": "Option D5"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 6?",
+              "options": {
+                "a": "Option A6",
+                "b": "Option B6",
+                "c": "Option C6",
+                "d": "Option D6"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Sample question 7?",
+              "options": {
+                "a": "Option A7",
+                "b": "Option B7",
+                "c": "Option C7",
+                "d": "Option D7"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 8?",
+              "options": {
+                "a": "Option A8",
+                "b": "Option B8",
+                "c": "Option C8",
+                "d": "Option D8"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 9?",
+              "options": {
+                "a": "Option A9",
+                "b": "Option B9",
+                "c": "Option C9",
+                "d": "Option D9"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 10?",
+              "options": {
+                "a": "Option A10",
+                "b": "Option B10",
+                "c": "Option C10",
+                "d": "Option D10"
+              },
+              "correctAnswer": "d"
+            }
+          ]
+        },
+        {
+          "chapterName": "Chemistry",
+          "questions": [
+            {
+              "question": "Sample question 1?",
+              "options": {
+                "a": "Option A1",
+                "b": "Option B1",
+                "c": "Option C1",
+                "d": "Option D1"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Sample question 2?",
+              "options": {
+                "a": "Option A2",
+                "b": "Option B2",
+                "c": "Option C2",
+                "d": "Option D2"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 3?",
+              "options": {
+                "a": "Option A3",
+                "b": "Option B3",
+                "c": "Option C3",
+                "d": "Option D3"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 4?",
+              "options": {
+                "a": "Option A4",
+                "b": "Option B4",
+                "c": "Option C4",
+                "d": "Option D4"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Sample question 5?",
+              "options": {
+                "a": "Option A5",
+                "b": "Option B5",
+                "c": "Option C5",
+                "d": "Option D5"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 6?",
+              "options": {
+                "a": "Option A6",
+                "b": "Option B6",
+                "c": "Option C6",
+                "d": "Option D6"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 7?",
+              "options": {
+                "a": "Option A7",
+                "b": "Option B7",
+                "c": "Option C7",
+                "d": "Option D7"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 8?",
+              "options": {
+                "a": "Option A8",
+                "b": "Option B8",
+                "c": "Option C8",
+                "d": "Option D8"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 9?",
+              "options": {
+                "a": "Option A9",
+                "b": "Option B9",
+                "c": "Option C9",
+                "d": "Option D9"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Sample question 10?",
+              "options": {
+                "a": "Option A10",
+                "b": "Option B10",
+                "c": "Option C10",
+                "d": "Option D10"
+              },
+              "correctAnswer": "b"
+            }
+          ]
+        },
+        {
+          "chapterName": "Biology",
+          "questions": [
+            {
+              "question": "Sample question 1?",
+              "options": {
+                "a": "Option A1",
+                "b": "Option B1",
+                "c": "Option C1",
+                "d": "Option D1"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 2?",
+              "options": {
+                "a": "Option A2",
+                "b": "Option B2",
+                "c": "Option C2",
+                "d": "Option D2"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 3?",
+              "options": {
+                "a": "Option A3",
+                "b": "Option B3",
+                "c": "Option C3",
+                "d": "Option D3"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Sample question 4?",
+              "options": {
+                "a": "Option A4",
+                "b": "Option B4",
+                "c": "Option C4",
+                "d": "Option D4"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Sample question 5?",
+              "options": {
+                "a": "Option A5",
+                "b": "Option B5",
+                "c": "Option C5",
+                "d": "Option D5"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 6?",
+              "options": {
+                "a": "Option A6",
+                "b": "Option B6",
+                "c": "Option C6",
+                "d": "Option D6"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 7?",
+              "options": {
+                "a": "Option A7",
+                "b": "Option B7",
+                "c": "Option C7",
+                "d": "Option D7"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 8?",
+              "options": {
+                "a": "Option A8",
+                "b": "Option B8",
+                "c": "Option C8",
+                "d": "Option D8"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Sample question 9?",
+              "options": {
+                "a": "Option A9",
+                "b": "Option B9",
+                "c": "Option C9",
+                "d": "Option D9"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sample question 10?",
+              "options": {
+                "a": "Option A10",
+                "b": "Option B10",
+                "c": "Option C10",
+                "d": "Option D10"
+              },
+              "correctAnswer": "d"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
