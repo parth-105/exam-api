@@ -64,7 +64,7 @@ dotenv.config();
 
 async function seed() {
   try {
-    await mongoose.connect(process.env.MONGODB_URI);
+    await mongoose.connect('mongodb+srv://admin1:x36uB1XwqcSZImZ0@cluster0.lmbvy.mongodb.net/');
     console.log('✅ Connected to MongoDB');
 
     const data = JSON.parse(fs.readFileSync('data.json', 'utf8'));

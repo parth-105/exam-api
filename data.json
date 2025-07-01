@@ -1,6 +1,3 @@
-
-
-
 {
   "subjects": [
     {
@@ -638,6 +635,1601 @@
                 "d": "Option D10"
               },
               "correctAnswer": "d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Geography",
+      "chapters": [
+        {
+          "chapterName": "World Geography",
+          "questions": [
+            {
+              "question": "Which is the largest continent by area?",
+              "options": {
+                "a": "Africa",
+                "b": "Asia",
+                "c": "Europe",
+                "d": "North America"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which is the longest river in the world?",
+              "options": {
+                "a": "Amazon",
+                "b": "Yangtze",
+                "c": "Nile",
+                "d": "Mississippi"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which ocean is the deepest?",
+              "options": {
+                "a": "Atlantic",
+                "b": "Indian",
+                "c": "Arctic",
+                "d": "Pacific"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Mount Everest is located in which mountain range?",
+              "options": {
+                "a": "Andes",
+                "b": "Rockies",
+                "c": "Himalayas",
+                "d": "Alps"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which country has the most time zones?",
+              "options": {
+                "a": "USA",
+                "b": "Russia",
+                "c": "France",
+                "d": "China"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "The equator passes through which continent?",
+              "options": {
+                "a": "Europe",
+                "b": "Asia",
+                "c": "South America",
+                "d": "Australia"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which desert is the largest in the world?",
+              "options": {
+                "a": "Sahara",
+                "b": "Gobi",
+                "c": "Antarctica",
+                "d": "Kalahari"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which country is known as the Land of the Rising Sun?",
+              "options": {
+                "a": "South Korea",
+                "b": "Japan",
+                "c": "China",
+                "d": "Thailand"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which continent has the most countries?",
+              "options": {
+                "a": "Asia",
+                "b": "Europe",
+                "c": "Africa",
+                "d": "South America"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which two continents are entirely in the Southern Hemisphere?",
+              "options": {
+                "a": "Africa and Australia",
+                "b": "South America and Antarctica",
+                "c": "Australia and Antarctica",
+                "d": "Asia and South America"
+              },
+              "correctAnswer": "c"
+            }
+          ]
+        },
+        {
+          "chapterName": "Indian Geography",
+          "questions": [
+            {
+              "question": "Which is the longest river in India?",
+              "options": {
+                "a": "Yamuna",
+                "b": "Brahmaputra",
+                "c": "Godavari",
+                "d": "Ganga"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Which is the highest peak in India?",
+              "options": {
+                "a": "K2",
+                "b": "Kangchenjunga",
+                "c": "Nanda Devi",
+                "d": "Trisul"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Thar Desert is located in which state?",
+              "options": {
+                "a": "Gujarat",
+                "b": "Rajasthan",
+                "c": "Punjab",
+                "d": "Madhya Pradesh"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which Indian river flows westward into the Arabian Sea?",
+              "options": {
+                "a": "Yamuna",
+                "b": "Godavari",
+                "c": "Narmada",
+                "d": "Mahanadi"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Sundarbans delta is formed by which rivers?",
+              "options": {
+                "a": "Ganga and Yamuna",
+                "b": "Ganga and Brahmaputra",
+                "c": "Godavari and Krishna",
+                "d": "Brahmaputra and Teesta"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which is the southernmost point of India?",
+              "options": {
+                "a": "Kanyakumari",
+                "b": "Indira Point",
+                "c": "Rameswaram",
+                "d": "Kochi"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which state has the longest coastline in India?",
+              "options": {
+                "a": "Maharashtra",
+                "b": "Tamil Nadu",
+                "c": "Andhra Pradesh",
+                "d": "Gujarat"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Which mountain range separates Northern India from the Deccan Plateau?",
+              "options": {
+                "a": "Aravalli",
+                "b": "Vindhya",
+                "c": "Himalayas",
+                "d": "Western Ghats"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which lake is the largest freshwater lake in India?",
+              "options": {
+                "a": "Wular Lake",
+                "b": "Chilika Lake",
+                "c": "Pulicat Lake",
+                "d": "Dal Lake"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Which is the smallest state in India by area?",
+              "options": {
+                "a": "Goa",
+                "b": "Sikkim",
+                "c": "Tripura",
+                "d": "Manipur"
+              },
+              "correctAnswer": "a"
+            }
+          ]
+        },
+        {
+          "chapterName": "Environmental Geography",
+          "questions": [
+            {
+              "question": "Which layer of the atmosphere contains the ozone layer?",
+              "options": {
+                "a": "Troposphere",
+                "b": "Stratosphere",
+                "c": "Mesosphere",
+                "d": "Thermosphere"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What is the main cause of acid rain?",
+              "options": {
+                "a": "Carbon dioxide",
+                "b": "Sulphur dioxide and nitrogen oxides",
+                "c": "Ozone depletion",
+                "d": "Methane gas"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which gas is most responsible for the greenhouse effect?",
+              "options": {
+                "a": "Oxygen",
+                "b": "Nitrogen",
+                "c": "Carbon dioxide",
+                "d": "Hydrogen"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Deforestation leads to?",
+              "options": {
+                "a": "Soil erosion",
+                "b": "Increase in rainfall",
+                "c": "Decrease in temperature",
+                "d": "Increase in biodiversity"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Which of the following is a renewable resource?",
+              "options": {
+                "a": "Coal",
+                "b": "Petroleum",
+                "c": "Wind",
+                "d": "Natural gas"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What is biodiversity?",
+              "options": {
+                "a": "The variety of rocks on Earth",
+                "b": "The variety of ecosystems",
+                "c": "The variety of life forms on Earth",
+                "d": "The variety of weather patterns"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which of the following contributes to global warming?",
+              "options": {
+                "a": "Planting trees",
+                "b": "Using solar energy",
+                "c": "Burning fossil fuels",
+                "d": "Recycling"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which is the largest source of freshwater on Earth?",
+              "options": {
+                "a": "Rivers",
+                "b": "Lakes",
+                "c": "Groundwater",
+                "d": "Ice caps and glaciers"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Which protocol is related to climate change?",
+              "options": {
+                "a": "Montreal Protocol",
+                "b": "Kyoto Protocol",
+                "c": "Stockholm Convention",
+                "d": "Geneva Protocol"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which country emits the most carbon dioxide?",
+              "options": {
+                "a": "USA",
+                "b": "India",
+                "c": "China",
+                "d": "Russia"
+              },
+              "correctAnswer": "c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Sports",
+      "chapters": [
+        {
+          "chapterName": "Cricket",
+          "questions": [
+            {
+              "question": "Who is known as the Master Blaster?",
+              "options": {
+                "a": "Virat Kohli",
+                "b": "MS Dhoni",
+                "c": "Sachin Tendulkar",
+                "d": "Kapil Dev"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which country won the 2011 Cricket World Cup?",
+              "options": {
+                "a": "India",
+                "b": "Australia",
+                "c": "Sri Lanka",
+                "d": "England"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "How many players are in a cricket team?",
+              "options": {
+                "a": "9",
+                "b": "10",
+                "c": "11",
+                "d": "12"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What is the maximum number of overs in a T20 match?",
+              "options": {
+                "a": "20",
+                "b": "50",
+                "c": "10",
+                "d": "30"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Who has taken the most wickets in Test cricket?",
+              "options": {
+                "a": "Muttiah Muralitharan",
+                "b": "Shane Warne",
+                "c": "Anil Kumble",
+                "d": "Glenn McGrath"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Where is the Lord's Cricket Ground located?",
+              "options": {
+                "a": "Mumbai",
+                "b": "Sydney",
+                "c": "London",
+                "d": "Cape Town"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which country hosted the 2019 ICC World Cup?",
+              "options": {
+                "a": "Australia",
+                "b": "England",
+                "c": "India",
+                "d": "South Africa"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What is the term for a score of zero?",
+              "options": {
+                "a": "Run",
+                "b": "Duck",
+                "c": "Zero",
+                "d": "Miss"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Who is known as 'Captain Cool'?",
+              "options": {
+                "a": "Virat Kohli",
+                "b": "MS Dhoni",
+                "c": "Rohit Sharma",
+                "d": "Yuvraj Singh"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What is DRS in cricket?",
+              "options": {
+                "a": "Decision Review System",
+                "b": "Daily Run Stats",
+                "c": "Direct Run Support",
+                "d": "Dynamic Replay Score"
+              },
+              "correctAnswer": "a"
+            }
+          ]
+        },
+        {
+          "chapterName": "Football",
+          "questions": [
+            {
+              "question": "Which country has won the most FIFA World Cups?",
+              "options": {
+                "a": "Germany",
+                "b": "Argentina",
+                "c": "Brazil",
+                "d": "Italy"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Who is known as the 'GOAT' in football?",
+              "options": {
+                "a": "Lionel Messi",
+                "b": "Cristiano Ronaldo",
+                "c": "Pele",
+                "d": "All of the above"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "How many players are in a football team?",
+              "options": {
+                "a": "9",
+                "b": "10",
+                "c": "11",
+                "d": "12"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What is a hat-trick in football?",
+              "options": {
+                "a": "3 assists",
+                "b": "3 goals",
+                "c": "3 fouls",
+                "d": "3 penalties"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which country hosted the 2022 FIFA World Cup?",
+              "options": {
+                "a": "Russia",
+                "b": "Qatar",
+                "c": "USA",
+                "d": "France"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which club does Lionel Messi currently play for?",
+              "options": {
+                "a": "Barcelona",
+                "b": "PSG",
+                "c": "Inter Miami",
+                "d": "Manchester City"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What color card means a player is sent off?",
+              "options": {
+                "a": "Yellow",
+                "b": "Blue",
+                "c": "Red",
+                "d": "Green"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What does VAR stand for?",
+              "options": {
+                "a": "Video Assistant Referee",
+                "b": "Verified Action Replay",
+                "c": "Visual Analytics Review",
+                "d": "Virtual Attack Rule"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Which footballer is known as CR7?",
+              "options": {
+                "a": "Cristiano Ronaldo",
+                "b": "Carlos Roberto",
+                "c": "Cesar Ramos",
+                "d": "Carlos Reyna"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "What is the duration of a football match?",
+              "options": {
+                "a": "60 minutes",
+                "b": "70 minutes",
+                "c": "90 minutes",
+                "d": "100 minutes"
+              },
+              "correctAnswer": "c"
+            }
+          ]
+        },
+        {
+          "chapterName": "Olympics",
+          "questions": [
+            {
+              "question": "Which country has won the most Olympic medals?",
+              "options": {
+                "a": "USA",
+                "b": "China",
+                "c": "Russia",
+                "d": "Germany"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "How often are the Summer Olympics held?",
+              "options": {
+                "a": "Every 2 years",
+                "b": "Every 4 years",
+                "c": "Every 5 years",
+                "d": "Annually"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "In which city were the 2020 Summer Olympics held?",
+              "options": {
+                "a": "Tokyo",
+                "b": "Rio",
+                "c": "London",
+                "d": "Beijing"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "What color is the center ring in the Olympic logo?",
+              "options": {
+                "a": "Black",
+                "b": "Red",
+                "c": "Blue",
+                "d": "Green"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Who holds the record for the most Olympic gold medals?",
+              "options": {
+                "a": "Usain Bolt",
+                "b": "Michael Phelps",
+                "c": "Larisa Latynina",
+                "d": "Carl Lewis"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What year was the first modern Olympics held?",
+              "options": {
+                "a": "1900",
+                "b": "1896",
+                "c": "1912",
+                "d": "1888"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which sport is NOT part of the Summer Olympics?",
+              "options": {
+                "a": "Basketball",
+                "b": "Swimming",
+                "c": "Skiing",
+                "d": "Judo"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "How many rings are in the Olympic symbol?",
+              "options": {
+                "a": "4",
+                "b": "5",
+                "c": "6",
+                "d": "3"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which athlete is known as the fastest man alive?",
+              "options": {
+                "a": "Yohan Blake",
+                "b": "Tyson Gay",
+                "c": "Usain Bolt",
+                "d": "Carl Lewis"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which country will host the 2028 Olympics?",
+              "options": {
+                "a": "France",
+                "b": "USA",
+                "c": "Japan",
+                "d": "Australia"
+              },
+              "correctAnswer": "b"
+            }
+          ]
+        },
+        {
+          "chapterName": "Tennis",
+          "questions": [
+            {
+              "question": "What is the term for a score of 40-40 in tennis?",
+              "options": {
+                "a": "Juice",
+                "b": "Duce",
+                "c": "Deuce",
+                "d": "Draw"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "How many Grand Slams are held each year?",
+              "options": {
+                "a": "3",
+                "b": "4",
+                "c": "5",
+                "d": "6"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which surface is the French Open played on?",
+              "options": {
+                "a": "Grass",
+                "b": "Hard",
+                "c": "Clay",
+                "d": "Sand"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Who has won the most men's Grand Slam titles?",
+              "options": {
+                "a": "Roger Federer",
+                "b": "Novak Djokovic",
+                "c": "Rafael Nadal",
+                "d": "Pete Sampras"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which female tennis player is known as 'Serena Slam' holder?",
+              "options": {
+                "a": "Maria Sharapova",
+                "b": "Venus Williams",
+                "c": "Serena Williams",
+                "d": "Naomi Osaka"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What is a tiebreaker in tennis?",
+              "options": {
+                "a": "Sudden death match",
+                "b": "Game to decide a set",
+                "c": "Penalty game",
+                "d": "Extra round"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which Grand Slam is played at Wimbledon?",
+              "options": {
+                "a": "Clay",
+                "b": "Hard",
+                "c": "Grass",
+                "d": "Sand"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "How many points to win a game without deuce?",
+              "options": {
+                "a": "3",
+                "b": "4",
+                "c": "5",
+                "d": "6"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What is the tennis term for a serve that is not returned?",
+              "options": {
+                "a": "Ace",
+                "b": "Smash",
+                "c": "Spin",
+                "d": "Kill"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Which country hosts the Australian Open?",
+              "options": {
+                "a": "UK",
+                "b": "France",
+                "c": "USA",
+                "d": "Australia"
+              },
+              "correctAnswer": "d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Language",
+      "chapters": [
+        {
+          "chapterName": "Grammar",
+          "questions": [
+            {
+              "question": "Which part of speech describes a noun?",
+              "options": {
+                "a": "Verb",
+                "b": "Adjective",
+                "c": "Adverb",
+                "d": "Pronoun"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What is the past tense of 'go'?",
+              "options": {
+                "a": "Goed",
+                "b": "Go",
+                "c": "Went",
+                "d": "Gone"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which of the following is a conjunction?",
+              "options": {
+                "a": "Quickly",
+                "b": "And",
+                "c": "Run",
+                "d": "House"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Identify the verb in the sentence: 'She runs every morning.'",
+              "options": {
+                "a": "She",
+                "b": "Runs",
+                "c": "Every",
+                "d": "Morning"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What is the comparative form of 'good'?",
+              "options": {
+                "a": "More good",
+                "b": "Better",
+                "c": "Gooder",
+                "d": "Best"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which is an example of a preposition?",
+              "options": {
+                "a": "Jump",
+                "b": "On",
+                "c": "Cat",
+                "d": "Blue"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Choose the correct article: '___ apple a day keeps the doctor away.'",
+              "options": {
+                "a": "A",
+                "b": "An",
+                "c": "The",
+                "d": "None"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What is a synonym for 'fast'?",
+              "options": {
+                "a": "Slow",
+                "b": "Quick",
+                "c": "Late",
+                "d": "Lazy"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which is a correct plural noun?",
+              "options": {
+                "a": "Childs",
+                "b": "Children",
+                "c": "Childes",
+                "d": "Child"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What type of sentence is: 'Close the door.'?",
+              "options": {
+                "a": "Interrogative",
+                "b": "Declarative",
+                "c": "Imperative",
+                "d": "Exclamatory"
+              },
+              "correctAnswer": "c"
+            }
+          ]
+        },
+        {
+          "chapterName": "Vocabulary",
+          "questions": [
+            {
+              "question": "What is the opposite of 'happy'?",
+              "options": {
+                "a": "Glad",
+                "b": "Joyful",
+                "c": "Sad",
+                "d": "Excited"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What does 'enormous' mean?",
+              "options": {
+                "a": "Tiny",
+                "b": "Huge",
+                "c": "Fast",
+                "d": "Ugly"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Choose a synonym for 'angry'.",
+              "options": {
+                "a": "Mad",
+                "b": "Happy",
+                "c": "Gentle",
+                "d": "Kind"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "What does 'benevolent' mean?",
+              "options": {
+                "a": "Cruel",
+                "b": "Kind",
+                "c": "Lazy",
+                "d": "Bold"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Find the antonym of 'dark'.",
+              "options": {
+                "a": "Black",
+                "b": "Shade",
+                "c": "Light",
+                "d": "Dull"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What does 'frequently' mean?",
+              "options": {
+                "a": "Rarely",
+                "b": "Sometimes",
+                "c": "Often",
+                "d": "Never"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "The word 'brave' is closest in meaning to:",
+              "options": {
+                "a": "Afraid",
+                "b": "Courageous",
+                "c": "Quiet",
+                "d": "Weak"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Choose the best definition of 'ancient'.",
+              "options": {
+                "a": "Old",
+                "b": "Fast",
+                "c": "Modern",
+                "d": "Young"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "What does 'assist' mean?",
+              "options": {
+                "a": "Ignore",
+                "b": "Help",
+                "c": "Laugh",
+                "d": "Scare"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What is the opposite of 'hardworking'?",
+              "options": {
+                "a": "Tired",
+                "b": "Lazy",
+                "c": "Smart",
+                "d": "Active"
+              },
+              "correctAnswer": "b"
+            }
+          ]
+        },
+        {
+          "chapterName": "Comprehension",
+          "questions": [
+            {
+              "question": "What do we call understanding what you read?",
+              "options": {
+                "a": "Memorizing",
+                "b": "Writing",
+                "c": "Comprehension",
+                "d": "Translation"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What should you do before answering comprehension questions?",
+              "options": {
+                "a": "Skip reading",
+                "b": "Read the passage",
+                "c": "Guess",
+                "d": "Ask a friend"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "In comprehension, a 'main idea' is:",
+              "options": {
+                "a": "The title",
+                "b": "The biggest word",
+                "c": "The main point",
+                "d": "The question"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "A fact is something that:",
+              "options": {
+                "a": "Is always true",
+                "b": "Is someone’s opinion",
+                "c": "Can be false",
+                "d": "Is funny"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "What do you look for to find the meaning of a difficult word?",
+              "options": {
+                "a": "Context clues",
+                "b": "The title",
+                "c": "The questions",
+                "d": "Your name"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Why is it important to re-read a passage?",
+              "options": {
+                "a": "To find errors",
+                "b": "To improve grammar",
+                "c": "To understand better",
+                "d": "To change words"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What does inference mean in reading?",
+              "options": {
+                "a": "Guessing",
+                "b": "Understanding beyond text",
+                "c": "Copying",
+                "d": "Skimming"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which of the following helps comprehension?",
+              "options": {
+                "a": "Not paying attention",
+                "b": "Sleeping",
+                "c": "Reading actively",
+                "d": "Writing notes only"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What is a summary?",
+              "options": {
+                "a": "A list of questions",
+                "b": "A short explanation",
+                "c": "A poem",
+                "d": "An answer key"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which of these is a detail?",
+              "options": {
+                "a": "The main idea",
+                "b": "A small fact",
+                "c": "A heading",
+                "d": "The answer"
+              },
+              "correctAnswer": "b"
+            }
+          ]
+        },
+        {
+          "chapterName": "Literature",
+          "questions": [
+            {
+              "question": "Who wrote 'Romeo and Juliet'?",
+              "options": {
+                "a": "William Shakespeare",
+                "b": "J.K. Rowling",
+                "c": "Charles Dickens",
+                "d": "Leo Tolstoy"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "What is a fable?",
+              "options": {
+                "a": "A true story",
+                "b": "A poem",
+                "c": "A story with a moral",
+                "d": "A song"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What is the theme of a story?",
+              "options": {
+                "a": "Its title",
+                "b": "Main message",
+                "c": "Length",
+                "d": "Ending"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which genre includes imaginary events?",
+              "options": {
+                "a": "Fiction",
+                "b": "Biography",
+                "c": "Essay",
+                "d": "History"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "What is a poem's stanza similar to?",
+              "options": {
+                "a": "Paragraph",
+                "b": "Sentence",
+                "c": "Line",
+                "d": "Word"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Who is the protagonist?",
+              "options": {
+                "a": "Villain",
+                "b": "Hero",
+                "c": "Narrator",
+                "d": "Friend"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What is the climax of a story?",
+              "options": {
+                "a": "Beginning",
+                "b": "Most exciting part",
+                "c": "Ending",
+                "d": "Conflict"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which of these is an example of a simile?",
+              "options": {
+                "a": "He is a rock.",
+                "b": "She sings like a bird.",
+                "c": "The wind whispered.",
+                "d": "Time flew."
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What does 'genre' mean in literature?",
+              "options": {
+                "a": "Name",
+                "b": "Style or type",
+                "c": "Author",
+                "d": "Font"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "A story that teaches a lesson is called:",
+              "options": {
+                "a": "Myth",
+                "b": "Legend",
+                "c": "Fable",
+                "d": "Tale"
+              },
+              "correctAnswer": "c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Knowledge",
+      "chapters": [
+        {
+          "chapterName": "General Awareness",
+          "questions": [
+            {
+              "question": "What is the capital of India?",
+              "options": {
+                "a": "Mumbai",
+                "b": "Kolkata",
+                "c": "New Delhi",
+                "d": "Chennai"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which planet is known as the Red Planet?",
+              "options": {
+                "a": "Mars",
+                "b": "Venus",
+                "c": "Jupiter",
+                "d": "Saturn"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Who is the current President of India (as of 2025)?",
+              "options": {
+                "a": "Narendra Modi",
+                "b": "Droupadi Murmu",
+                "c": "Rajnath Singh",
+                "d": "Amit Shah"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What is the currency of Japan?",
+              "options": {
+                "a": "Yuan",
+                "b": "Yen",
+                "c": "Won",
+                "d": "Ringgit"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which ocean is the largest in the world?",
+              "options": {
+                "a": "Atlantic",
+                "b": "Indian",
+                "c": "Arctic",
+                "d": "Pacific"
+              },
+              "correctAnswer": "d"
+            },
+            {
+              "question": "Which country is known as the Land of the Rising Sun?",
+              "options": {
+                "a": "China",
+                "b": "Japan",
+                "c": "Thailand",
+                "d": "Indonesia"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which day is celebrated as World Environment Day?",
+              "options": {
+                "a": "June 5",
+                "b": "April 22",
+                "c": "March 8",
+                "d": "July 1"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "Who invented the telephone?",
+              "options": {
+                "a": "Thomas Edison",
+                "b": "Alexander Graham Bell",
+                "c": "Newton",
+                "d": "Einstein"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What is the full form of UNO?",
+              "options": {
+                "a": "United Nations Order",
+                "b": "Universal Nations Organization",
+                "c": "United Nations Organization",
+                "d": "United National Office"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Where is the Taj Mahal located?",
+              "options": {
+                "a": "Delhi",
+                "b": "Agra",
+                "c": "Mumbai",
+                "d": "Jaipur"
+              },
+              "correctAnswer": "b"
+            }
+          ]
+        },
+        {
+          "chapterName": "Technology",
+          "questions": [
+            {
+              "question": "What does CPU stand for?",
+              "options": {
+                "a": "Central Performance Unit",
+                "b": "Central Processing Unit",
+                "c": "Central Power Unit",
+                "d": "Control Processing Unit"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which company created the Android operating system?",
+              "options": {
+                "a": "Google",
+                "b": "Apple",
+                "c": "Microsoft",
+                "d": "IBM"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "What is used to access the internet wirelessly?",
+              "options": {
+                "a": "Ethernet",
+                "b": "USB",
+                "c": "Wi-Fi",
+                "d": "LAN cable"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "HTML is used for?",
+              "options": {
+                "a": "Programming apps",
+                "b": "Designing websites",
+                "c": "Running OS",
+                "d": "Video editing"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which device is used to print documents?",
+              "options": {
+                "a": "Scanner",
+                "b": "Monitor",
+                "c": "Printer",
+                "d": "Projector"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which of the following is an input device?",
+              "options": {
+                "a": "Monitor",
+                "b": "Keyboard",
+                "c": "Printer",
+                "d": "Speaker"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "What does 'www' stand for?",
+              "options": {
+                "a": "World Wide Web",
+                "b": "Wide Web World",
+                "c": "World Web Wide",
+                "d": "Web Wide World"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "What is a mobile app?",
+              "options": {
+                "a": "Computer software",
+                "b": "A phone",
+                "c": "A mobile application",
+                "d": "A TV device"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which of the following is NOT a search engine?",
+              "options": {
+                "a": "Google",
+                "b": "Bing",
+                "c": "Chrome",
+                "d": "DuckDuckGo"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What is the function of a browser?",
+              "options": {
+                "a": "Stores files",
+                "b": "Sends emails",
+                "c": "Accesses web pages",
+                "d": "Edits photos"
+              },
+              "correctAnswer": "c"
+            }
+          ]
+        },
+        {
+          "chapterName": "History",
+          "questions": [
+            {
+              "question": "Who was the first Prime Minister of India?",
+              "options": {
+                "a": "Mahatma Gandhi",
+                "b": "Lal Bahadur Shastri",
+                "c": "Jawaharlal Nehru",
+                "d": "Indira Gandhi"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "When did India gain independence?",
+              "options": {
+                "a": "1945",
+                "b": "1950",
+                "c": "1947",
+                "d": "1930"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Who discovered America?",
+              "options": {
+                "a": "Christopher Columbus",
+                "b": "Neil Armstrong",
+                "c": "Galileo",
+                "d": "Marco Polo"
+              },
+              "correctAnswer": "a"
+            },
+            {
+              "question": "In which year did World War II end?",
+              "options": {
+                "a": "1940",
+                "b": "1945",
+                "c": "1950",
+                "d": "1939"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which emperor built the Red Fort?",
+              "options": {
+                "a": "Akbar",
+                "b": "Shah Jahan",
+                "c": "Aurangzeb",
+                "d": "Babar"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Who was known as the Iron Man of India?",
+              "options": {
+                "a": "Mahatma Gandhi",
+                "b": "Sardar Patel",
+                "c": "Lal Bahadur Shastri",
+                "d": "Nehru"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Where did the Jallianwala Bagh massacre take place?",
+              "options": {
+                "a": "Delhi",
+                "b": "Amritsar",
+                "c": "Lucknow",
+                "d": "Mumbai"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which war was fought in 1965?",
+              "options": {
+                "a": "Indo-China War",
+                "b": "Indo-Pak War",
+                "c": "World War I",
+                "d": "Kargil War"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Who wrote the Indian National Anthem?",
+              "options": {
+                "a": "Bankim Chandra",
+                "b": "Sarojini Naidu",
+                "c": "Rabindranath Tagore",
+                "d": "Subhas Chandra Bose"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which civilization existed along the Indus River?",
+              "options": {
+                "a": "Mesopotamian",
+                "b": "Roman",
+                "c": "Harappan",
+                "d": "Egyptian"
+              },
+              "correctAnswer": "c"
+            }
+          ]
+        },
+        {
+          "chapterName": "Environment",
+          "questions": [
+            {
+              "question": "Which gas is essential for humans to breathe?",
+              "options": {
+                "a": "Carbon dioxide",
+                "b": "Oxygen",
+                "c": "Nitrogen",
+                "d": "Helium"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which layer protects Earth from harmful rays?",
+              "options": {
+                "a": "Troposphere",
+                "b": "Stratosphere",
+                "c": "Ozone layer",
+                "d": "Ionosphere"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What causes global warming?",
+              "options": {
+                "a": "Trees",
+                "b": "Greenhouse gases",
+                "c": "Rain",
+                "d": "Wind"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which is a renewable source of energy?",
+              "options": {
+                "a": "Coal",
+                "b": "Oil",
+                "c": "Solar",
+                "d": "Gasoline"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "What is the largest source of freshwater?",
+              "options": {
+                "a": "Oceans",
+                "b": "Rivers",
+                "c": "Ice caps",
+                "d": "Lakes"
+              },
+              "correctAnswer": "c"
+            },
+            {
+              "question": "Which of these is biodegradable?",
+              "options": {
+                "a": "Plastic bag",
+                "b": "Banana peel",
+                "c": "Glass bottle",
+                "d": "Aluminum foil"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Deforestation leads to:",
+              "options": {
+                "a": "More oxygen",
+                "b": "Soil erosion",
+                "c": "Rain",
+                "d": "Cool climate"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Planting trees helps reduce:",
+              "options": {
+                "a": "Oxygen",
+                "b": "Carbon dioxide",
+                "c": "Sunlight",
+                "d": "Animals"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which of the following pollutes water?",
+              "options": {
+                "a": "Paper",
+                "b": "Fertilizers",
+                "c": "Air",
+                "d": "Sun"
+              },
+              "correctAnswer": "b"
+            },
+            {
+              "question": "Which type of waste can be composted?",
+              "options": {
+                "a": "Plastic",
+                "b": "Food scraps",
+                "c": "Metal",
+                "d": "Glass"
+              },
+              "correctAnswer": "b"
             }
           ]
         }
