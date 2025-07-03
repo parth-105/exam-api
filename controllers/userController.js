@@ -1,6 +1,7 @@
 const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const awardPoints = require('../utils/awardPoints');
 
 // Register a new user
 exports.register = async (req, res) => {
@@ -43,10 +44,7 @@ exports.addPoints = async (req, res) => {
     const { userId, points, game } = req.body;
     const user = await User.findById(userId);
     if (!user) return res.status(404).json({ message: 'User not found' });
-    const now = new Date();
-    user.pointsHistory.push({ date: now, points, game });
-    user.totalPoints += points;
-    await user.save();
+    await awardPoints(userId, points, game || 'Manual Add');
     res.json({ message: 'Points added successfully' });
   } catch (err) {
     res.status(500).json({ message: err.message });

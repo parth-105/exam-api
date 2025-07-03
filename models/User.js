@@ -11,7 +11,33 @@ const userSchema = new mongoose.Schema({
   email: { type: String, required: true, unique: true },
   password: { type: String, required: true },
   totalPoints: { type: Number, default: 0 },
-  pointsHistory: { type: [pointsHistorySchema], default: [] }
+  pointsHistory: { type: [pointsHistorySchema], default: [] },
+  referralCode: { type: String, unique: true },
+  referredBy: { type: String }
 }, { timestamps: true });
+
+// Helper to generate a random 6-letter code
+function generateReferralCode() {
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let code = '';
+  for (let i = 0; i < 6; i++) {
+    code += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return code;
+}
+
+userSchema.pre('save', async function (next) {
+  if (!this.referralCode) {
+    let code;
+    let exists = true;
+    // Ensure uniqueness
+    while (exists) {
+      code = generateReferralCode();
+      exists = await mongoose.models.User.findOne({ referralCode: code });
+    }
+    this.referralCode = code;
+  }
+  next();
+});
 
 module.exports = mongoose.model('User', userSchema); 

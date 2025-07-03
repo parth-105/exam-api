@@ -43,6 +43,7 @@
 
 // with DB
 const Exam = require('../models/Exam');
+const awardPoints = require('../utils/awardPoints');
 
 const getSubjects = async (req, res) => {
   const subjects = await Exam.find({}, 'subject');
@@ -63,13 +64,19 @@ const getQuestions = async (req, res) => {
   res.json(chapter.questions);
 };
 
-const evaluateAnswers = (req, res) => {
-  const { questions, answers } = req.body;
+// Award points for quiz/exam and trigger referral commission
+const evaluateAnswers = async (req, res) => {
+  const { userId, questions, answers, pointsPerCorrect = 1 } = req.body;
+  if (!userId) return res.status(400).json({ error: 'userId is required' });
   let score = 0;
   questions.forEach((q, i) => {
     if (q.correctAnswer === answers[i]) score++;
   });
-  res.json({ score, total: questions.length });
+  const totalPoints = score * pointsPerCorrect;
+  if (totalPoints > 0) {
+    await awardPoints(userId, totalPoints, 'Quiz/Exam');
+  }
+  res.json({ score, total: questions.length, pointsAwarded: totalPoints });
 };
 
 module.exports = {
