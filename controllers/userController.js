@@ -15,7 +15,8 @@ exports.register = async (req, res) => {
     // console.log('Registered user id:', user._id);
     res.status(201).json({ 
       message: 'User registered successfully',
-      userId: user._id
+      userId: user._id,
+      user : user
     });
   } catch (err) {
     res.status(500).json({ message: err.message });
@@ -32,7 +33,7 @@ exports.login = async (req, res) => {
     if (!isMatch) return res.status(400).json({ message: 'Invalid credentials' });
     // console.log('Login user id:', user._id);
     const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET || 'secret', { expiresIn: '7d' });
-    res.json({ token:token , userId: user._id });
+    res.json({ token:token , userId: user._id , user: user});
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
