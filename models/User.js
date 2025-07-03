@@ -13,7 +13,9 @@ const userSchema = new mongoose.Schema({
   totalPoints: { type: Number, default: 0 },
   pointsHistory: { type: [pointsHistorySchema], default: [] },
   referralCode: { type: String, unique: true },
-  referredBy: { type: String }
+  referredBy: { type: String },
+  dailyRewardDay: { type: Number, default: 1 }, // 1-7
+  lastDailyRewardDate: { type: Date }
 }, { timestamps: true });
 
 // Helper to generate a random 6-letter code

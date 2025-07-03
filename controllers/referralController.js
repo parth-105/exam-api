@@ -38,19 +38,8 @@ exports.useReferralCode = async (req, res) => {
     await awardPoints(user._id, 100, 'Referral Bonus');
     // Award points to User A (referrer)
     await awardPoints(referrer._id, 100, 'Referral Bonus (referrer)');
-    // Award 5% commission to User A for User B's referral bonus
-    const commission = Math.floor(100 * 0.05);
-    if (commission > 0) {
-      referrer.totalPoints += commission;
-      referrer.pointsHistory.push({
-        date: new Date(),
-        points: commission,
-        game: `Referral Commission: ${commission} points from ${user.username}'s Referral Bonus`
-      });
-      await referrer.save();
-    }
 
-    res.status(200).json({ message: `Referral bonus applied: ${user.username} received 100 points, ${referrer.username} received 100 points and ${commission} commission.` });
+    res.status(200).json({ message: `${user.username} received 100 points, ${referrer.username} received 100 points and commission.` });
   } catch (err) {
     res.status(500).json({ message: 'Server error', error: err.message });
   }
