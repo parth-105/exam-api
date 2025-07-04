@@ -2,6 +2,8 @@ const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const awardPoints = require('../utils/awardPoints');
+const Withdrawal = require('../models/Withdrawal');
+const crypto = require('crypto');
 
 // Register a new user
 exports.register = async (req, res) => {
@@ -112,6 +114,125 @@ exports.claimDailyReward = async (req, res) => {
     await user.save();
 
     res.json({ message: `Claimed Day ${rewardDay} daily reward: ${reward} points.`, reward, day: rewardDay });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
+
+// User requests withdrawal (creates pending request)
+exports.requestWithdrawal = async (req, res) => {
+  try {
+    const { userId, points } = req.body;
+    if (!userId || !points) {
+      return res.status(400).json({ message: 'userId and points are required' });
+    }
+    const user = await User.findById(userId);
+    if (!user) return res.status(404).json({ message: 'User not found' });
+    if (user.totalPoints < points) {
+      return res.status(400).json({ message: 'Insufficient points' });
+    }
+    const withdrawal = new Withdrawal({ user: userId, amount: points });
+    await withdrawal.save();
+    res.json({ message: 'Withdrawal request submitted and pending admin approval.' });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
+
+// Admin approves withdrawal
+exports.approveWithdrawal = async (req, res) => {
+  try {
+    const { withdrawalId, code } = req.body;
+    if (!withdrawalId || !code) {
+      return res.status(400).json({ message: 'withdrawalId and code are required' });
+    }
+    const withdrawal = await Withdrawal.findById(withdrawalId).populate('user');
+    if (!withdrawal) return res.status(404).json({ message: 'Withdrawal request not found' });
+    if (withdrawal.status !== 'pending') {
+      return res.status(400).json({ message: 'Withdrawal already processed' });
+    }
+    const user = withdrawal.user;
+    if (user.totalPoints < withdrawal.amount) {
+      return res.status(400).json({ message: 'User has insufficient points at approval time' });
+    }
+    // Deduct points from user and update history (same logic as before)
+    let remaining = withdrawal.amount;
+    for (let i = user.pointsHistory.length - 1; i >= 0 && remaining > 0; i--) {
+      const entry = user.pointsHistory[i];
+      if (entry.points <= remaining) {
+        remaining -= entry.points;
+        user.pointsHistory.splice(i, 1);
+      } else {
+        entry.points -= remaining;
+        remaining = 0;
+      }
+    }
+    user.totalPoints -= withdrawal.amount;
+    await user.save();
+    withdrawal.status = 'approved';
+    withdrawal.code = code;
+    withdrawal.approvedAt = new Date();
+    await withdrawal.save();
+    // Optionally: send code to user (e.g., email, notification)
+    res.json({ message: 'Withdrawal approved, points deducted, and code sent to user.' });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
+
+// Withdraw points for a user
+exports.withdrawPoints = async (req, res) => {
+  try {
+    const { userId, points } = req.body;
+    if (!userId || !points) {
+      return res.status(400).json({ message: 'userId and points are required' });
+    }
+    const user = await User.findById(userId);
+    if (!user) return res.status(404).json({ message: 'User not found' });
+    if (user.totalPoints < points) {
+      return res.status(400).json({ message: 'Insufficient points' });
+    }
+    let remaining = points;
+    // Start from the most recent history entry
+    for (let i = user.pointsHistory.length - 1; i >= 0 && remaining > 0; i--) {
+      const entry = user.pointsHistory[i];
+      if (entry.points <= remaining) {
+        remaining -= entry.points;
+        user.pointsHistory.splice(i, 1); // Remove entry
+      } else {
+        entry.points -= remaining;
+        remaining = 0;
+      }
+    }
+    user.totalPoints -= points;
+    await user.save();
+    res.json({ message: 'Points withdrawn and history updated successfully' });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
+
+// Get withdrawal history for a user
+exports.getWithdrawalHistory = async (req, res) => {
+  try {
+    const { userId } = req.query;
+    if (!userId) {
+      return res.status(400).json({ message: 'userId is required' });
+    }
+    const withdrawals = await Withdrawal.find({ user: userId }).sort({ createdAt: -1 });
+    res.json(withdrawals);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
+
+// Get all withdrawal requests (admin view)
+exports.getAllWithdrawals = async (req, res) => {
+  try {
+    const { status } = req.query;
+    const filter = status ? { status } : {};
+    const withdrawals = await Withdrawal.find(filter).populate('user').sort({ createdAt: -1 });
+    res.json(withdrawals);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
