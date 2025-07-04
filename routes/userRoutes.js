@@ -13,5 +13,6 @@ router.post('/request-withdrawal', userController.requestWithdrawal); // User re
 router.post('/approve-withdrawal', userController.approveWithdrawal); // Admin approves withdrawal
 router.get('/withdrawal-history', userController.getWithdrawalHistory); // Get withdrawal history for a user
 router.get('/all-withdrawals', userController.getAllWithdrawals); // Admin: get all withdrawal requests
+router.get('/profile', userController.getProfile); // Get user profile (all details)
 
 module.exports = router; 
