@@ -1,3 +1,4 @@
+const mongoose = require('mongoose');
 const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
@@ -251,4 +252,44 @@ exports.getProfile = async (req, res) => {
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
-}; 
+};
+
+// Get full user transaction history (earnings, withdrawals, pending/approved)
+exports.getUserHistory = async (req, res) => {
+  try {
+    const { userId } = req.query;
+    if (!userId) return res.status(400).json({ message: 'userId is required' });
+
+    // Earnings (from pointsHistory)
+    const user = await User.findById(userId);
+    if (!user) return res.status(404).json({ message: 'User not found' });
+    const earnings = user.pointsHistory.map(e => ({
+      points: e.points,
+      date: e.date.toISOString(),
+      game: e.game
+    }));
+
+    // Withdrawals
+    const withdrawals = await Withdrawal.find({ user: userId }).sort({ createdAt: -1 });
+    const formattedWithdrawals = withdrawals.map(w => ({
+      id: w._id,
+      amount: w.amount,
+      status: w.status,
+      requestedAt: w.requestedAt ? w.requestedAt.toISOString() : null,
+      approvedAt: w.approvedAt ? w.approvedAt.toISOString() : null,
+      code: w.code || null
+    }));
+
+    const pendingWithdrawals = formattedWithdrawals.filter(w => w.status === 'pending');
+    const approvedWithdrawals = formattedWithdrawals.filter(w => w.status === 'approved');
+
+    res.json({
+      earnings,
+      withdrawals: formattedWithdrawals,
+      pendingWithdrawals,
+      approvedWithdrawals
+    });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
