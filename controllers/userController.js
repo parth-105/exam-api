@@ -123,16 +123,21 @@ exports.claimDailyReward = async (req, res) => {
 // User requests withdrawal (creates pending request)
 exports.requestWithdrawal = async (req, res) => {
   try {
-    const { userId, points } = req.body;
-    if (!userId || !points) {
-      return res.status(400).json({ message: 'userId and points are required' });
+    const { userId, points, username, email } = req.body;
+    if (!userId || !points || !username || !email) {
+      return res.status(400).json({ message: 'userId, points, username, and email are required' });
     }
     const user = await User.findById(userId);
     if (!user) return res.status(404).json({ message: 'User not found' });
     if (user.totalPoints < points) {
       return res.status(400).json({ message: 'Insufficient points' });
     }
-    const withdrawal = new Withdrawal({ user: userId, amount: points });
+    const withdrawal = new Withdrawal({ 
+      user: userId, 
+      username: username,
+      email: email,
+      amount: points 
+    });
     await withdrawal.save();
     res.json({ message: 'Withdrawal request submitted and pending admin approval.' });
   } catch (err) {
@@ -232,8 +237,26 @@ exports.getAllWithdrawals = async (req, res) => {
   try {
     const { status } = req.query;
     const filter = status ? { status } : {};
-    const withdrawals = await Withdrawal.find(filter).populate('user').sort({ createdAt: -1 });
-    res.json(withdrawals);
+    const withdrawals = await Withdrawal.find(filter).sort({ createdAt: -1 });
+    
+    // Format response to include username and email (now stored directly)
+    const formattedWithdrawals = withdrawals.map(w => ({
+      _id: w._id,
+      user: {
+        _id: w.user,
+        username: w.username,
+        email: w.email
+      },
+      amount: w.amount,
+      status: w.status,
+      code: w.code,
+      requestedAt: w.requestedAt,
+      approvedAt: w.approvedAt,
+      createdAt: w.createdAt,
+      updatedAt: w.updatedAt
+    }));
+    
+    res.json(formattedWithdrawals);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
